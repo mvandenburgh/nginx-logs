@@ -1,0 +1,618 @@
+{
+  "GET api_key": {
+    "count": 0,
+    "group": "admin"
+  },
+  "GET assetstore": {
+    "count": 0,
+    "group": "admin"
+  },
+  "GET assetstore/{id}": {
+    "count": 0,
+    "group": "admin"
+  },
+  "GET assetstore/{id}/files": {
+    "count": 0,
+    "group": "admin"
+  },
+  "GET system/access_flag": {
+    "count": 0,
+    "group": "admin"
+  },
+  "GET system/check": {
+    "count": 0,
+    "group": "admin"
+  },
+  "GET system/configuration": {
+    "count": 0,
+    "group": "admin"
+  },
+  "GET system/log": {
+    "count": 0,
+    "group": "admin"
+  },
+  "GET system/log/level": {
+    "count": 0,
+    "group": "admin"
+  },
+  "GET system/plugins": {
+    "count": 0,
+    "group": "admin"
+  },
+  "GET system/setting": {
+    "count": 0,
+    "group": "admin"
+  },
+  "GET system/setting/collection_creation_policy/access": {
+    "count": 0,
+    "group": "admin"
+  },
+  "GET system/uploads": {
+    "count": 0,
+    "group": "admin"
+  },
+  "GET system/version": {
+    "count": 0,
+    "group": "admin"
+  },
+  "GET token/current": {
+    "count": 0,
+    "group": "admin"
+  },
+  "GET token/scopes": {
+    "count": 0,
+    "group": "admin"
+  },
+  "GET token/session": {
+    "count": 0,
+    "group": "admin"
+  },
+  "POST api_key": {
+    "count": 0,
+    "group": "admin"
+  },
+  "POST api_key/token": {
+    "count": 0,
+    "group": "admin"
+  },
+  "POST assetstore": {
+    "count": 0,
+    "group": "admin"
+  },
+  "POST assetstore/{id}/import": {
+    "count": 0,
+    "group": "admin"
+  },
+  "PUT api_key/{id}": {
+    "count": 0,
+    "group": "admin"
+  },
+  "PUT assetstore/{id}": {
+    "count": 0,
+    "group": "admin"
+  },
+  "PUT system/check": {
+    "count": 0,
+    "group": "admin"
+  },
+  "PUT system/log/level": {
+    "count": 0,
+    "group": "admin"
+  },
+  "PUT system/setting": {
+    "count": 0,
+    "group": "admin"
+  },
+  "DELETE api_key/{id}": {
+    "count": 0,
+    "group": "admin"
+  },
+  "DELETE assetstore/{id}": {
+    "count": 0,
+    "group": "admin"
+  },
+  "DELETE system/setting": {
+    "count": 0,
+    "group": "admin"
+  },
+  "DELETE system/uploads": {
+    "count": 0,
+    "group": "admin"
+  },
+  "DELETE token/session": {
+    "count": 0,
+    "group": "admin"
+  },
+  "GET collection": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET collection/{id}": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET collection/{id}/access": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET collection/{id}/datasetEvents": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET collection/{id}/details": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET collection/{id}/download": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET collection/{id}/quota": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET collection/details": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET file/{id}": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET file/hashsum/{algo}/{hash}": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET file/offset": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET folder": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET folder/{id}": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET folder/{id}/access": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET folder/{id}/details": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET folder/{id}/rootpath": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET group": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET group/{id}": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET group/{id}/access": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET group/{id}/invitation": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET group/{id}/member": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET homepage": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET homepage/assets": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET item": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET item/{id}": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET item/{id}/files": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET item/{id}/rootpath": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET job": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET job/{id}": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET job/all": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET job/typeandstatus": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET job/typeandstatus/all": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET notification": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET notification/stream": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET resource/{id}": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET resource/{id}/path": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET resource/lookup": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET resource/search": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET user": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET user/{id}": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET user/{id}/details": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET user/{id}/quota": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET user/authentication": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET user/details": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET user/me": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET user/password/temporary/{id}": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "POST authorized_upload": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "POST collection": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "POST collection/{id}/acceptTerms": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "POST file/{id}/hashsum": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "POST folder": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "POST folder/{id}/copy": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "POST group": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "POST group/{id}/admin": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "POST group/{id}/invitation": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "POST group/{id}/member": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "POST group/{id}/moderator": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "POST item": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "POST item/{id}/copy": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "POST job": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "POST resource/copy": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "POST thumbnail": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "POST user": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "POST user/{id}/otp": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "POST user/verification": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "PUT collection/{id}": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "PUT collection/{id}/access": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "PUT collection/{id}/metadata": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "PUT collection/{id}/monkeybrains": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "PUT collection/{id}/quota": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "PUT folder/{id}": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "PUT folder/{id}/access": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "PUT folder/{id}/metadata": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "PUT group/{id}": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "PUT item/{id}": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "PUT item/{id}/metadata": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "PUT job/{id}": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "PUT job/{id}/cancel": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "PUT resource/{id}/timestamp": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "PUT resource/move": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "PUT user/{id}": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "PUT user/{id}/otp": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "PUT user/{id}/password": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "PUT user/{id}/quota": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "PUT user/{id}/verification": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "PUT user/password": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "PUT user/password/temporary": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "DELETE collection/{id}": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "DELETE collection/{id}/metadata": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "DELETE folder/{id}": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "DELETE folder/{id}/contents": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "DELETE folder/{id}/metadata": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "DELETE group/{id}": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "DELETE group/{id}/admin": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "DELETE group/{id}/member": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "DELETE group/{id}/moderator": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "DELETE item/{id}": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "DELETE item/{id}/metadata": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "DELETE job/{id}": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "DELETE resource": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "DELETE user/{id}": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "DELETE user/{id}/otp": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "DELETE user/authentication": {
+    "count": 0,
+    "group": "browsing"
+  },
+  "GET file/{id}/download": {
+    "count": 0,
+    "group": "file download"
+  },
+  "GET file/{id}/download/{name}": {
+    "count": 0,
+    "group": "file download"
+  },
+  "GET file/{id}/hashsum_file/{algo}": {
+    "count": 0,
+    "group": "file download"
+  },
+  "GET file/hashsum/{algo}/{hash}/download": {
+    "count": 0,
+    "group": "file download"
+  },
+  "GET folder/{id}/download": {
+    "count": 0,
+    "group": "file download"
+  },
+  "GET item/{id}/download": {
+    "count": 0,
+    "group": "file download"
+  },
+  "GET resource/download": {
+    "count": 0,
+    "group": "file download"
+  },
+  "POST file": {
+    "count": 0,
+    "group": "file upload"
+  },
+  "POST file/{id}/copy": {
+    "count": 0,
+    "group": "file upload"
+  },
+  "POST file/chunk": {
+    "count": 0,
+    "group": "file upload"
+  },
+  "POST file/completion": {
+    "count": 0,
+    "group": "file upload"
+  },
+  "POST resource/download": {
+    "count": 0,
+    "group": "file upload"
+  },
+  "PUT file/{id}": {
+    "count": 0,
+    "group": "file download"
+  },
+  "PUT file/{id}/contents": {
+    "count": 0,
+    "group": "file upload"
+  },
+  "PUT file/{id}/move": {
+    "count": 0,
+    "group": "file upload"
+  },
+  "DELETE file/{id}": {
+    "count": 0,
+    "group": "file download"
+  },
+  "DELETE file/upload/{id}": {
+    "count": 0,
+    "group": "file delete"
+  },
+  "GET google_analytics/id": {
+    "count": 0,
+    "group": "misc"
+  },
+  "GET oauth/provider": {
+    "count": 0,
+    "group": "misc"
+  },
+  "GET sentry/dsn": {
+    "count": 0,
+    "group": "misc"
+  }
+}
